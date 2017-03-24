@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="EuNJ57" name="Boomerang" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Boomerang" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="1" buildAUv3="1" buildRTAS="0"
+              buildAAX="0" pluginName="Boomerang" pluginDesc="Boomerang" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="Manu" pluginCode="Eunj" pluginChannelConfigs=""
+              pluginIsSynth="0" pluginWantsMidiIn="1" pluginProducesMidiOut="1"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="BoomerangAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.Boomerang"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.3.0"
+              companyEmail="blaketeres@gmail.com" companyName="Blake Teres"
+              pluginVSTCategory="">
+  <MAINGROUP id="M3X6Lf" name="Boomerang">
+    <GROUP id="{E5D5A907-3F1E-08E1-98B0-5A1291E684DE}" name="External">
+      <FILE id="TBn0vC" name="Background.png" compile="0" resource="1" file="External/Background.png"/>
+      <FILE id="cjepG5" name="Background.xcf" compile="0" resource="1" file="External/Background.xcf"/>
+      <FILE id="zwPWbm" name="Background2.png" compile="0" resource="1" file="External/Background2.png"/>
+      <FILE id="YOT4Q5" name="Boomerang_Screenshot.png" compile="0" resource="1"
+            file="External/Boomerang_Screenshot.png"/>
+      <FILE id="Bn054T" name="Futura.ttc" compile="0" resource="1" file="External/Futura.ttc"/>
+      <FILE id="iFrsAr" name="KNOB.png" compile="0" resource="1" file="External/KNOB.png"/>
+      <FILE id="zhdwdf" name="KNOB2.png" compile="0" resource="1" file="External/KNOB2.png"/>
+      <FILE id="h6tJFA" name="KNOB3.png" compile="0" resource="1" file="External/KNOB3.png"/>
+      <FILE id="NojqLi" name="KNOB4.png" compile="0" resource="1" file="External/KNOB4.png"/>
+      <FILE id="sTDy6P" name="Toggle.png" compile="0" resource="1" file="External/Toggle.png"/>
+      <FILE id="bXrXKl" name="ToggleOn.png" compile="0" resource="1" file="External/ToggleOn.png"/>
+    </GROUP>
+    <GROUP id="{C9BBBCFC-BC64-C761-FE25-6B06D81891BB}" name="Source">
+      <FILE id="NRhtWn" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="w4qmeH" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="QpIRJr" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="XRmGiT" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vst3Folder="/Users/blaketeres/Documents/SDKs/VST3 SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Boomerang"
+                       defines="" osxSDK="default" osxCompatibility="default" osxArchitecture="64BitUniversal"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Boomerang"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="64BitUniversal"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
