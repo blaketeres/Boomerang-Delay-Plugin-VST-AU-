@@ -16,6 +16,7 @@ Senior Undergraduate Fall Capstone Project
 * Sync option not working in some DAWs (hardcoded to 120 BPM for now)
 * Upon closing the plugin window, parameters reset.
 * Modulation effect sounds bad (for now!)
+* Please note that this was a class project, and it is not meant to be used for professional use. It has bugs and problems that make it unreliable.
 
 ### Contribution guidelines ###
 
