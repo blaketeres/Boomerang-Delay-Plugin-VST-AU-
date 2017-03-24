@@ -10,6 +10,7 @@ Senior Undergraduate Fall Capstone Project
 
 * A simple delay plugin that offers millisecond and DAW bpm sync.
 * Still has some bugs, should be fixed soon.
+* Plugin files (VST3, VST, AU) are found in the zip file.
 
 ### Known issues ###
 
